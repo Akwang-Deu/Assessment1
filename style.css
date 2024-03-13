@@ -1,0 +1,91 @@
+body{
+    font-size: 15px
+@media  and  {min-width: 768px;
+    
+}
+
+}
+.Dribble{
+    font-style: italic;
+    margin: 20%;
+}
+button{
+
+}
+.search{
+    margin: 5%;
+}
+.Log in{
+    margin: 10%;
+}
+.Image1{
+    border-radius: 50%;
+}
+#modern{
+    display: flex;
+    justify-content: center;
+  
+}
+h2{
+    text-align: center;
+}
+#topnav2{
+    text-align: center;
+}
+#store{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    text-align: center;
+}
+#stock{
+    text-align: center;
+}
+.image3{
+    height: 500px;
+    width: 300px;
+}
+.image5{
+    height: 200px;
+    width: 150px;
+}
+.image6{
+    height: 200px;
+    width: 150px;
+}
+.image7{
+    height: 200px;
+    width: 150px;
+}
+#forher{
+    display: flex;
+    justify-content: center;
+}
+#forher2{
+    display: flex;
+}
+#new{
+    display: flex;
+    justify-content: center;
+}
+#formen{
+    display: flex;
+}
+#formen2{
+    display: flex;
+    
+}
+#Menstock{
+    display: flex;
+    justify-content: center;
+}
+#image20{
+    text-align: center;
+}
+#pooter{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
