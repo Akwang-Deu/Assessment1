@@ -1,46 +1,58 @@
-body{
-    font-size: 15px
-@media  and  {min-width: 768px;
-    
-}
 
-}
-.Dribble{
-    font-style: italic;
-    margin: 20%;
-}
-button{
-
-}
-.search{
-    margin: 5%;
-}
-.Log in{
-    margin: 10%;
-}
-.Image1{
-    border-radius: 50%;
-}
-#modern{
+#topnav{
     display: flex;
-    justify-content: center;
-  
+    gap: 20px;
+
 }
-h2{
-    text-align: center;
+.H{
+    font-size: xx-large;
 }
-#topnav2{
-    text-align: center;
+.HOME{
+    -webkit-text-fill-color: black;
 }
 #store{
     display: flex;
+    gap: 10%;
     justify-content: center;
+    font-size: xx-large;
+
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin: 10%;
+}
+.image2{
+    height: 800px;
+    width: 700px;
 }
 h4{
     text-align: center;
 }
+.forher{
+    font-size: 250%;
+    color: #000;
+    
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    display: flex;
+
+}
+.container2{
+    display: flex;
+}
+
+
 #stock{
+    display: flex;
+    gap: 20px;
     text-align: center;
+    justify-content: center;
 }
 .image3{
     height: 500px;
@@ -58,13 +70,14 @@ h4{
     height: 200px;
     width: 150px;
 }
+#forher2{
+    display: flex;
+}
 #forher{
     display: flex;
     justify-content: center;
 }
-#forher2{
-    display: flex;
-}
+
 #new{
     display: flex;
     justify-content: center;
@@ -81,11 +94,166 @@ h4{
     justify-content: center;
 }
 #image20{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 #pooter{
     display: flex;
     justify-content: center;
     justify-content: space-between;
 }
+#forhim{
+    
+    text-align: center;
+    font-size: 250%;
+    -webkit-text-fill-color: black;
+ 
+}
+#blackimage{
+    height: 300px;
+    width: 400px;
+}
+#s.image{
+    height: 300px;
+    width:400px ;
+}
 
+@media screen and (min-width:320px) and (max-width:480px){
+    #pooter{
+        display: grid;
+    }
+    #container{
+        display: grid;
+    }
+    
+    #image20{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .man{
+        display: grid;
+        justify-content: center;
+    }
+    
+    #formen2{
+        display: grid;
+       text-align: center;
+       justify-content: center;
+    }
+    #formen{
+        display: grid;
+        justify-content: center;
+
+    }
+    #Menstock{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #container{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container2{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container1{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image2{
+        height: 200px;
+        width: 200px;
+    }
+    #store{
+        display: grid;
+        justify-content: center;
+        font-size: small;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 2%;
+    }
+    #stock{
+        display: flex;
+        text-align: center;
+        
+    }
+}
+@media screen and (min-width:481px) and (max-width:1200px){
+
+    #pooter{
+        display: grid;
+    }
+    #container{
+        display: grid;
+    }
+    
+    #image20{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .man{
+        display: grid;
+        justify-content: center;
+    }
+    
+    #formen2{
+        display: grid;
+       text-align: center;
+       justify-content: center;
+    }
+    #formen{
+        display: grid;
+        justify-content: center;
+
+    }
+    #Menstock{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #container{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container2{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container1{
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image2{
+        height: 200px;
+        width: 200px;
+    }
+    #store{
+        display: grid;
+        justify-content: center;
+        font-size: small;
+    }
+    button{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        margin: 2%;
+    }
+    #stock{
+        display: flex;
+        text-align: center;
+        
+    }
+}
